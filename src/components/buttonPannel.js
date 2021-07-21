@@ -1,9 +1,9 @@
-import Button from "./button";
+import Button from './button';
 
 const ButtonPannel = () => (
   <>
     <div className="group-1">
-      <Button name="AC"/>
+      <Button name="AC" />
       <Button name="+/-" />
       <Button name="%" />
       <Button name="/" />
@@ -30,5 +30,8 @@ const ButtonPannel = () => (
       <Button name="0" />
       <Button name="." />
       <Button name="=" />
+    </div>
   </>
 );
+
+export default ButtonPannel;

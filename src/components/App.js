@@ -1,9 +1,11 @@
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello, world!</h1>
-    </div>
-  );
-}
+import Display from './display';
+import ButtonPanel from './buttonPannel';
+
+const App = () => (
+  <>
+    <Display />
+    <ButtonPanel />
+  </>
+);
 
 export default App;
