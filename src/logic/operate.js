@@ -27,6 +27,7 @@ const operate = (numberOne, numberTwo, operation) => {
     if (result) {
       return result + (operation || '');
     }
+  }
 
   return null;
 };
