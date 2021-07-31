@@ -24,8 +24,8 @@ describe('calculate', () => {
 
   it('Subtracts two numbers', () => {
     expect(calculate({ next: '4-2' }, '+').next).toBe('2+');
-    expect(calculate({ next: '3-1.5' }, '=').next).toBe('1.5');
+    expect(calculate({ next: '-8/4' }, '-').next).toBe('-2-');
     expect(calculate({ next: '-8+-4' }, '-').next).toBe('-12-');
-    expect(calculate({ next: '9-1.5' }, '=').next).toBe('7.5');
+    expect(calculate({ next: '-9/-1.5' }, '=').next).toBe('6');
   });
 });
