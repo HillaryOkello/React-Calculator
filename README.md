@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://boiling-depths-95179.herokuapp.com/)
+[Live Demo Link](https://okello-calculator.herokuapp.com/)
 
 ## Getting Started
 
