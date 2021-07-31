@@ -20,6 +20,7 @@ describe('calculate', () => {
     expect(calculate({ next: '3/1.5' }, '=').next).toBe('2');
     expect(calculate({ next: '-8/4' }, '-').next).toBe('-2-');
     expect(calculate({ next: '-9/-1.5' }, '=').next).toBe('6');
+    expect(calculate({ next: '8/0' }, '=').next).toBe('inf');
   });
 
   it('Subtracts two numbers', () => {
