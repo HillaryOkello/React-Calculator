@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-const Button = props => {
+const Button = (props) => {
   const {
     name, clickHandler, color, wide,
   } = props;
@@ -13,7 +13,7 @@ const Button = props => {
     textAlign: 'center',
   };
 
-  const handleClick = e => {
+  const handleClick = (e) => {
     e.preventDefault();
     clickHandler(e.target.innerText);
   };
