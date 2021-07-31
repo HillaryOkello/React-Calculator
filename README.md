@@ -2,6 +2,8 @@
 
 # React Calculator
 
+![Top Page Screenshot](./src/components/assets/Screenshot.png)
+
 ## Table of Contents
 
 * [Live Demo](#live-demo)
