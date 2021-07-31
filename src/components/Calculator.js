@@ -3,7 +3,7 @@ import Display from './display';
 import ButtonPanel from './buttonPanel';
 import calculate from '../logic/calculate';
 import Navbar from './Navbar';
-import './assets/CSS/App.css';
+import './assets/CSS/Calculator.css';
 
 const Calculator = () => {
   const [total, setTotal] = useState(null);
@@ -32,5 +32,8 @@ const Calculator = () => {
     </>
   );
 };
+require('react-dom');
+window.React2 = require('react');
+console.log(window.React1 === window.React2);
 
 export default Calculator;
